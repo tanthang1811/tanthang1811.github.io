@@ -25,10 +25,18 @@ nav{
     border-radius: 10px;
     border-top: 5px solid white;
     border-bottom: 5px solid white;
+    
 }
 nav a {
-    padding: 15px;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+    padding-left: 0.7em;
+    padding-right: 0.7em;
     text-decoration: none;
+    border-radius: 30px;
+    border: 2px solid white;
+    margin-right: 1em;
+    margin-left: 1em;
 }
 main{
     background-color: white;
@@ -58,10 +66,19 @@ a:hover{
 a:visited{
     color: purple;
 }
-@media only screen and (max-width:600px){
+@media only screen and (max-width:1000px){
     nav a {
-        padding: 15px;
+        padding: 0.5em;
         text-decoration: none;
         display: block;
+        margin:1px;
+    }
+    img{
+        width: 100%;
+    }
+    body {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
